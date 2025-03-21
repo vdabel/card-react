@@ -1,0 +1,106 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    background-image: url('https://wallpapercat.com/w/full/b/6/c/2591512-1920x1158-desktop-hd-daft-punk-wallpaper-image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    width: 300px;
+    height: 450px;
+    background-color: #000D0E;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    color: #e4e4e4;
+}
+
+.img-container img {
+    width: 100%;
+    display: block;
+}
+
+.logo-container {
+    position: relative;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: -40px;
+}
+
+.text-container {
+    margin-top: 50px;
+}
+
+.text-container h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.text-container p {
+    margin: 8px 40px 0;
+    font-size: 15px;
+}
+
+.extra-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.extra-info div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.extra-info i {
+    font-size: 15px;
+}
+
+.website-container a {
+    color: #e4e4e4;
+}
+
+.website-container a:hover {
+    text-decoration: none;
+}
+
+
+.social-medias {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-medias a {
+    color: #e4e4e4;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-medias a:hover {
+    transform: scale(1.1);
+    text-shadow: #e4e4e4;
+    text-shadow: 0px 0px 2px #ffffffa6;
+}
