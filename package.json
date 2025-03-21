@@ -1,7 +1,7 @@
 {
   "name": "my-react-app-styles",
   "private": true,
-  "homepage": "https://vdabel.github.io/daft-punk-card-react",
+  "homepage": "https://vdabel.github.io/card-react",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
